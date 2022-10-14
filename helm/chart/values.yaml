@@ -1,0 +1,24 @@
+# Global Values
+repoUrl: 'https://github.com/alex-souslik/eks-gitops.git'
+targetRevision: master
+region: ''
+account: ''
+clusterName: ''
+
+clusterAutoscaler:
+  enable: false
+  serviceAccountName:
+
+externalDns:
+  enable: false
+  serviceAccountName:
+
+ingressNginx:
+  enable: false
+
+metricsServer:
+  enable: false
+
+chaosMesh:
+  enable: false
+  hostname:

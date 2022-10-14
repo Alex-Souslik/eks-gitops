@@ -1,0 +1,5 @@
+chaos-mesh:
+  dashboard:
+    ingress:
+      enabled: true
+      ingressClassName: nginx
